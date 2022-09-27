@@ -15,7 +15,7 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL"),( None)
     ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
 
-🤖 My Name: <a href='https://t.me/FilmyFather_BotList'>Mdisk Search Robot</a>
+🤖 My Name: <a href='https://t.me/MdiskLinksSearchBot'>Mdisk Search Robot</a>
 
 📝 Language : <a href='https://www.python.org'> Python V3</a>
 
@@ -23,33 +23,32 @@ class Config(object):
 
 📡 Server: <a href='https://heroku.com'>Heroku</a>
 
-👨‍💻 Created By: <a href='https://t.me/Yuvi_4502'>ʏᴜᴠʀᴀᴊ</a></b>
+👨‍💻 USED IN: <a href='https://t.me/blackest_harbour'>Group</a></b>
 """
 
-    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/Yuvi_4502'>ʏᴜᴠʀᴀᴊ</a>
+    ABOUT_HELP_TEXT = """<b> You Can Try Searching Any Movies Series Shows In Our Group.
 
 If You Want Your Own Bot Like This Then You Can Contact Our Developer.</b>
 """
 
     HOME_TEXT = """
-<b>Hey! {}😅,
+<b>Hey! Dear {}😉,
 
-I'm Mdisk Search Robot.🤖</a>
+I'm Mdisk Search Robo🤠</a>
 
-I Can Search!🔍 What You Want?😜
+I Can Search Anything!🔍 Just Drop A Movie Name With Correct Spelling 💁
 
-<a>Made With ❤ By @Yuvi_4502</a></b>
+<a>If You Didn't Found Ur Query Then Please Request It On @blackest_harbour ❤ </a></b>
 """
 
 
     START_MSG = """
-<b>Hey! {}😅,
+<b>Hey! Dear {}😉,
 
-I'm Mdisk Search Robot.🤖</a>
+I'm Mdisk Search Robo🤠</a>
 
-I Can Search!🔍 What You Want?😜
+I Can Search Anything!🔍 Just Drop A Movie Name With Correct Spelling 💁
 
-<a>Made With ❤ By @Yuvi_4502</a></b>
+<a>If You Didn't Found Ur Query Then Please Request It On @blackest_harbour ❤ </a></b>
+
 """
-
-
