@@ -28,8 +28,8 @@ async def start_handler(_, event: Message):
 
     await event.reply_text(Config.START_MSG.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Our Channel", url="https://t.me/FilmyFather_BotList"),
-             InlineKeyboardButton("Our Group", url="https://t.me/RequestingHuB")],
+            [InlineKeyboardButton("Our Channel", url="https://t.me/z_harbour"),
+             InlineKeyboardButton("Our Group", url="https://t.me/blackest_harbour")],
             [InlineKeyboardButton("Help", callback_data="Help_msg"),
              InlineKeyboardButton("About", callback_data="About_msg")]
         ])
@@ -40,8 +40,8 @@ async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Our Channel", url="https://t.me/FilmyFather_BotList"),
-             InlineKeyboardButton("Our Group", url="https://t.me/RequestingHuB"), 
+            [InlineKeyboardButton("Our Channel", url="https://t.me/z_harbour"),
+             InlineKeyboardButton("Our Group", url="https://t.me/blackest_harbour"), 
              InlineKeyboardButton("About", callback_data="About_msg")]
         ])
     )
@@ -85,7 +85,7 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("Our Group", url="https://t.me/RequestingHuB")
 					],
 					[
-						InlineKeyboardButton("Developer", url="https://t.me/Yuvi_4502"),
+						InlineKeyboardButton("Developer", url="https://t.me/sigma_male_007"),
 						InlineKeyboardButton("Home", callback_data="gohome")
 					]
 				]
@@ -100,10 +100,10 @@ async def button(bot, cmd: CallbackQuery):
 				[
 					[
 						InlineKeyboardButton("About", callback_data="About_msg"),
-						InlineKeyboardButton("Our Channel", url="https://t.me/FilmyFather_BotList")
+						InlineKeyboardButton("Our Channel", url="https://t.me/sigma_male_007")
 					], 
                                         [
-						InlineKeyboardButton("Owner", url="https://t.me/Yuvi_4502"),
+						InlineKeyboardButton("Owner", url="https://t.me/sigma_male_007"),
 						InlineKeyboardButton("Home", callback_data="gohome")
 					]
 				]
@@ -121,8 +121,8 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("About", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("Support", url="https://t.me/Yuvi_4502"),
-						InlineKeyboardButton("Channel", url="https://t.me/RequestingHuB")
+						InlineKeyboardButton("Support", url="https://t.me/sigma_male_007"),
+						InlineKeyboardButton("Channel", url="https://t.me/blackest_harbour")
 					]
 				]
 			),
