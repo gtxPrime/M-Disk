@@ -81,8 +81,8 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Our Channel", url="https://t.me/FilmyFather_BotlIst"),
-						InlineKeyboardButton("Our Group", url="https://t.me/RequestingHuB")
+						InlineKeyboardButton("Our Channel", url="https://t.me/z_harbour"),
+						InlineKeyboardButton("Our Group", url="https://t.me/Blackest_Harbour")
 					],
 					[
 						InlineKeyboardButton("Developer", url="https://t.me/sigma_male_007"),
@@ -121,7 +121,7 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("About", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("Support", url="https://t.me/sigma_male_007"),
+						InlineKeyboardButton("Support", url="https://t.me/z_harbour"),
 						InlineKeyboardButton("Channel", url="https://t.me/blackest_harbour")
 					]
 				]
