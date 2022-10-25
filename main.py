@@ -30,7 +30,6 @@ async def start_handler(_, event: Message):
         reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton("Our Channel", url="https://t.me/ZCipher"),
              InlineKeyboardButton("Request Group", url="https://t.me/MdiskMovies_x")],
-	    [InlineKeyboardButton("For Direct Files", url="https://BlackSovereignAdBot")],
             [InlineKeyboardButton("Help", callback_data="Help_msg"),
              InlineKeyboardButton("About", callback_data="About_msg")]]))
 
