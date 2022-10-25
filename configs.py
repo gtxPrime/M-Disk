@@ -15,7 +15,7 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL"),( None)
     ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
 
-🤖 My Name: <a href='https://t.me/MdiskLinksSearchBot'>Mdisk Search Robot</a>
+🤖 My Name: <a href='https://t.me/BlackSovereignMDBot'>Black Sovereign</a>
 
 📝 Language : <a href='https://www.python.org'> Python V3</a>
 
@@ -23,7 +23,7 @@ class Config(object):
 
 📡 Server: <a href='https://heroku.com'>Heroku</a>
 
-👨‍💻 USED IN: <a href='https://t.me/blackest_harbour'>Group</a></b>
+👨‍💻 USED IN: <a href='https://t.me/BlackHArbour'>Group</a></b>
 """
 
     ABOUT_HELP_TEXT = """<b> You Can Try Searching Any Movies Series Shows In Our Group.
@@ -38,17 +38,17 @@ I'm Mdisk Search Robo🤠</a>
 
 I Can Search Anything!🔍 Just Drop A Movie Name With Correct Spelling 💁
 
-<a>If You Didn't Found Ur Query Then Please Request It On @blackest_harbour ❤ </a></b>
+<a>If You Didn't Found Ur Query Then Please Request It On @BlackHarbour ❤ </a></b>
 """
 
 
     START_MSG = """
 <b>Hey! Dear {}😉,
 
-I'm Mdisk Search Robo🤠</a>
+I'm Black Sovereign a M-Disk Search Robo🤠</a>
 
 I Can Search Anything!🔍 Just Drop A Movie Name With Correct Spelling 💁
 
-<a>If You Didn't Found Ur Query Then Please Request It On @blackest_harbour ❤ </a></b>
+<a>If You Didn't Found Ur Query Then Please Request It On @BlackHarbour ❤ </a></b>
 
 """
