@@ -26,14 +26,12 @@ User = Client(
 @Bot.on_message(filters.private & filters.command("start"))
 async def start_handler(_, event: Message):
      await event.reply_photo("https://telegra.ph/file/d41b53919d63247bd2b0d.png",
-	caption = (Config.START_MSG.format(event.from_user.mention),
+	caption = Config.START_MSG.format(event.from_user.mention),
         reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton("Our Channel", url="https://t.me/ZCipher"),
              InlineKeyboardButton("Our Group", url="https://t.me/BlackHarbour")],
             [InlineKeyboardButton("Help", callback_data="Help_msg"),
-             InlineKeyboardButton("About", callback_data="About_msg")]
-        ])
-    )
+             InlineKeyboardButton("About", callback_data="About_msg")]]))
 
 @Bot.on_message(filters.private & filters.command("help"))
 async def help_handler(_, event: Message):
