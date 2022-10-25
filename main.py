@@ -29,9 +29,8 @@ async def start_handler(_, event: Message):
 	caption = Config.START_MSG.format(event.from_user.mention),
         reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton("Our Channel", url="https://t.me/ZCipher"),
-             InlineKeyboardButton("Our Group", url="https://t.me/BlackHarbour")],
-	    [InlineKeyboardButton("Request Group", url="https://t.me/MdiskMovies_x"),
-             InlineKeyboardButton("For Direct Files", url="https://BlackSovereignAdBot")],
+             InlineKeyboardButton("Request Group", url="https://t.me/MdiskMovies_x")],
+	    [InlineKeyboardButton("For Direct Files", url="https://BlackSovereignAdBot")],
             [InlineKeyboardButton("Help", callback_data="Help_msg"),
              InlineKeyboardButton("About", callback_data="About_msg")]]))
 
