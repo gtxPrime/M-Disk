@@ -25,7 +25,7 @@ User = Client(
 
 @Bot.on_message(filters.private & filters.command("start"))
 async def start_handler(_, event: Message):
-     await event.reply_photo("https://telegra.ph/file/d41b53919d63247bd2b0d.png",
+     await event.reply_photo("https://telegra.ph/file/7ad6f71ddce9fb2e61d48.jpg",
 	caption = Config.START_MSG.format(event.from_user.mention),
         reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton("Our Channel", url="https://t.me/ZCipher"),
