@@ -80,7 +80,7 @@ async def button(bot, cmd: CallbackQuery):
 				[
 					[
 						InlineKeyboardButton("Our Channel", url="https://t.me/ZCipher"),
-						InlineKeyboardButton("Want direct files no Mdisk links ? Go here", url="https://t.me/movieszhub")
+						InlineKeyboardButton("Want direct files? Go here", url="https://t.me/movieszhub")
 					],
 					[
 						InlineKeyboardButton("Developer", url="https://t.me/gtxPrime"),
