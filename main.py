@@ -39,7 +39,7 @@ async def help_handler(_, event: Message):
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("Our Channel", url="https://t.me/ZCipher"),
-             InlineKeyboardButton("Want direct files no Mdisk links ? Go here", url="https://t.me/movieszhub"), 
+             InlineKeyboardButton("Want direct files? Go here", url="https://t.me/movieszhub"), 
              InlineKeyboardButton("About", callback_data="About_msg")]
         ])
     )
@@ -48,7 +48,7 @@ async def help_handler(_, event: Message):
 async def inline_handlers(_, event: Message):
     if event.text == '/start':
         return
-    answers = f'**📂 Results For ➠ {event.text} \n\n ━━━━━┛ ✠ ┗━━━━━ \n➠ Please Type Correct Spelling.✍️\n➠ Add Year For Better Result.🗓️\n➠ Want direct files no Mdisk links ? Go here - @movieszhub\n ━━━━━┛ ✠ ┗━━━━━ \n\n**'
+    answers = f'**📂 Results For ➠ {event.text} \n\n ━━━━━┛ ✠ ┗━━━━━ \n➠ Please Type Correct Spelling.✍️\n➠ Add Year For Better Result.🗓️\n➠ Want direct files no links ? Go here - @movieszhub\n ━━━━━┛ ✠ ┗━━━━━ \n\n**'
     async for message in User.search_messages(chat_id=Config.CHANNEL_ID, limit=50, query=event.text):
         if message.text:
             thumb = True
